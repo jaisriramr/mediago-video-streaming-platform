@@ -1,0 +1,94 @@
+# === Java (Spring Boot, Maven, Gradle) ===
+/target/
+/build/
+*.log
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+.mvn/
+!**/src/**/mvnw
+!**/src/**/mvnw.cmd
+!**/src/**/pom.xml
+!**/src/**/.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# === Node.js / React ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.*
+
+# === Docker ===
+*.pid
+docker-compose.override.yml
+.dockerignore
+**/docker/logs/
+**/.env.docker
+
+# === Kubernetes / Helm ===
+*.tgz
+*.chart
+.helm/
+k8s/.temp/
+k8s/.helm-cache/
+k8s/secrets.yaml
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+__MACOSX/
+
+# === IDEs ===
+# IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code
+.vscode/
+.history/
+
+# === Logs ===
+logs/
+*.log
+*.out
+
+# === Others ===
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+
+# === Test / Coverage ===
+coverage/
+.nyc_output/
+test-output/
+*.test.js
+jest-html-reporter-output.html
+
+# === Python Scripts (if any tooling) ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# === Media Files (local uploads/testing only) ===
+uploads/
+media/
+tmp/
+*.mp4
+*.mkv
+*.ts
+*.m3u8
