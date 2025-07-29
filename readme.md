@@ -74,8 +74,7 @@ Each service follows domain-driven design principles and communicates via REST o
 ### 🔧 Prerequisites
 
 - Docker
-- Java 17
-- Node.js (for frontend)
+- Java 21
 - AWS Account
 - Auth0 Tenant
 - PostgreSQL & MongoDB running locally or in Docker
